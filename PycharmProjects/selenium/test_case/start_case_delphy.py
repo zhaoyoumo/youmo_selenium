@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 __author__ = 'Youmo'
 
 # 1.先用selenium打开你需要的登录的页面地址url1
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://m.cokeway.info/')
 print("1.进入app")
@@ -28,8 +28,8 @@ sleep(1)
 driver.find_element_by_xpath("//*[contains(text(),'登录/注册')]").click()
 print ("3.点击登录/注册")
 
-driver.find_element_by_css_selector("input[type='text']").send_keys("17710151109")
-driver.find_element_by_css_selector("input[type='password']").send_keys("495889504zlk")
+driver.find_element_by_css_selector("input[type='text']").send_keys("13500000000")
+driver.find_element_by_css_selector("input[type='password']").send_keys("a123456")
 print("4.输入用户名密码")
 
 # 鼠标悬停在验证码上
