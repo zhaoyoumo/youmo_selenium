@@ -30,7 +30,7 @@ def Downloads_Pic(strPath, strName):
 
 for i in range(1, 10 + 1):
     strFileName = "%03d" % i
-    Downloads_Pic('/Users/likunzhao/Documents/img/', strFileName)
+    Downloads_Pic('/路径/img/', strFileName)
 
 
 
