@@ -6,15 +6,12 @@ __author__ = 'Youmo'
 
 
 driver = webdriver.Chrome()
-driver.get("https://test.xjonathan.me/")    # 打开测试地址
+driver.get("https://test.xjonathan.me/sign-in")    # 打开测试地址
 time.sleep(1)
-driver.find_element_by_xpath(u"//button[contains(.,'注册')]").click() # 点击注册按钮
-driver.find_element_by_id("country").click()
-driver.find_element_by_xpath("//input[@type='email']").send_keys("zhaolikun@delphy.org")
-driver.find_element_by_xpath("//input[@type='password']").send_keys("495889504@Zlk")
-driver.find_element_by_xpath("(//input[@type='password'])[2]").send_keys("495889504@Zlk")
-driver.find_element_by_css_selector(".custom-checkbox").click()
-driver.find_element_by_xpath("(//button[@type='button'])[4]").click()
+driver.find_element_by_id("account").send_keys("zhaoyoumo@outlook.com")     # 点击登录
+driver.find_element_by_id("password").send_keys("Abcd1234**")
+driver.find_element_by_xpath("//div/div/button").click()
+
 
 
 
