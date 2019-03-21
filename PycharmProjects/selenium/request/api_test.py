@@ -1,5 +1,6 @@
 # -*- coding: utf8 -*-
-# code by Shurrik
+
+
 import threading, time, httplib
 
 HOST = "www.baidu.com";  # 主机地址 例如192.168.1.101
