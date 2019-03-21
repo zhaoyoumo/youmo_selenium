@@ -18,7 +18,7 @@ report:存放测试报告文件
 
 emil_config:发送邮件
 
-request:接口测试
+test_api:接口测试
 
 test_case:存放用例文件
 
