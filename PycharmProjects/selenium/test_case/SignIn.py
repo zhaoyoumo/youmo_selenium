@@ -60,9 +60,6 @@ class SignIn(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-    # self.account = driver.find_element_by_id("account").send_keys("zhaoyoumo@outlook.com")
-    # self.psw = driver.find_element_by_id("password").send_keys("Abcd1234**")
-    # self.driver.find_element_by_xpath("//div/div/button").click()
 
 # if account == driver.find_element_by_id("account").click():
 #     driver.find_element_by_xpath("//div/div/button").click()
@@ -86,87 +83,3 @@ if __name__ == "__main__":
 #         time.sleep(1)
 
 
-#
-# 登录测试，分下面几种情况：
-#
-# (1)用户名、密码正确
-#
-# (2)用户名正确、密码不正确
-#
-# (3)用户名正确、密码为空
-#
-# (4)用户名错误、密码正确
-#
-# (5)用户名为空、密码正确
-#
-
-#
-# import unittest
-#
-# from selenium import webdriver
-#
-# from time import sleep
-#
-#
-#
-#
-#
-# class LoginCase(unittest.TestCase):
-#
-#     def setUp(self):
-#
-#         self.dr = webdriver.Chrome()
-#
-#         self.dr.maximize_window()
-#
-#
-#
-#     # 用户名、密码正确'''
-#
-#         self.login('E201702270218', 'Za123456789')  # 退出' in link.text)  # 截图  可自定义截图后的保存位置和图片命名
-#
-#
-#
-#     def test_login_pwd_error(self):
-#
-#         '''正确用户名，错误密码
-#
-#         sleep(2)
-#
-#         error_message = self.dr.find_element_by_id('msg').text
-#
-#         self.assertIn(u'用assertIn(a,b)方法来断言 a in b  '用户名或密码错误'在error_message里
-#
-#         self.dr.get_screenshot_as_file("C:\Users\huhj2\Desktop\mm\login_pwd_error.jpg")
-#
-#
-#
-#     def test_login_pwd_null(self):
-#
-#
-#
-#         self.login('E201702270218', '')  # 必须录入密码。')  # 密码正确，用户名错误
-#
-#         sleep(2)
-#
-#         error_message = self.dr.find_element_by_id('msg').text
-#
-#         self.assertIn(u'用assertIn(a,b)方法来断言 a in b
-#
-#         self.dr.get_screenshot_as_file("C:\Users\huhj2\Desktop\mm\login_user_error.jpg")
-#
-#
-#
-#     def test_login_user_null(self):
-#
-#
-#
-#         self.login('', '*****')  # 必须录入员工号。')  # 自动测试完毕！')
-#
-#         self.dr.quit()
-#
-#
-#
-#
-#
-# if __name__ == '__main__':
