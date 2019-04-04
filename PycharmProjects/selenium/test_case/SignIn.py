@@ -9,7 +9,6 @@ __author__ = 'Youmo'
 
 class SignIn(unittest.TestCase):
     u"登录"
-
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
