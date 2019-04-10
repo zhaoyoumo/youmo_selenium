@@ -125,6 +125,6 @@ if __name__ == "__main__":
     #
     # def test04(self):
     #     '''失败案例'''
-    #     a = "上海-悠悠"
+    #     a = "悠悠"
     #     b = "yoyo"
     #     self.assertEqual(a, b)
