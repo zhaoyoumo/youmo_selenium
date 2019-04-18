@@ -14,8 +14,8 @@ class LimitOrder(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.get("https://test.xjonathan.me/sign-in")
-        self.driver.find_element_by_id("account").send_keys("zhaoyoumo@outlook.com")
-        self.driver.find_element_by_id("password").send_keys("Abcd1234**")
+        self.driver.find_element_by_xpath("//input[@id='account']").send_keys("zhaoyoumo@outlook.com")
+        self.driver.find_element_by_xpath("//input[@id='password']").send_keys("Abcd1234**")
         self.driver.find_element_by_xpath("//div/div/button").click()
         time.sleep(1)
         self.driver.get("https://test.xjonathan.me/trade")  # 进入交易页面
@@ -95,6 +95,11 @@ class LimitOrder(unittest.TestCase):
         print (u"计算过程：\n\t 1000 / 3500 * (0.1 - 0.00025 + 0.00075) = 0.02871428 \n\t 1000 / 3499 * (0.1 + 2 * 0.00075) = 0.02900828 \n\t 0.02871428 + 0.02900828 = 0.05772256)")
         time.sleep(1)
         print '----------------------------------------'
+        self.driver.get("https://test.xjonathan.me/trade")
+        self.driver.implicitly_wait(30)
+        self.driver.find_element_by_xpath("//div[3]/div/div/ul/li[2]/a/span").click()
+        self.driver.find_element_by_xpath("//td[9]/button/span").click()    # 点击取消按钮
+        print u'取消当前委托单'
         # self.driver.get("https://test.xjonathan.me/trade")
         # self.driver.implicitly_wait(30)
         # self.driver.find_element_by_xpath(u"//span[contains(.,'取消')").click()  # 撤销委托单
