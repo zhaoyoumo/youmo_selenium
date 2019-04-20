@@ -24,7 +24,7 @@ class SignIn(unittest.TestCase):
         self.driver.find_element_by_xpath("//div/div/button").click()
         time.sleep(3)
 
-    def is_SignIn_sucess(self):
+    def is_SignIn_success(self):
         u"""判断是否获取到登录账户名称"""
         try:
             text = self.driver.find_element_by_xpath("//li/div").text
