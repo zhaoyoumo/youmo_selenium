@@ -3,9 +3,9 @@
   <component name="FUSProjectUsageTrigger">
     <session id="308839932">
       <usages-collector id="statistics.lifecycle.project">
-        <usage id="project.opened" value="13" />
-        <usage id="project.open.time.9" value="2" />
-        <usage id="project.closed" value="12" />
+        <usage id="project.opened" value="14" />
+        <usage id="project.open.time.9" value="3" />
+        <usage id="project.closed" value="13" />
         <usage id="project.open.time.7" value="3" />
         <usage id="project.open.time.0" value="2" />
         <usage id="project.open.time.6" value="3" />
@@ -13,12 +13,12 @@
         <usage id="project.open.time.5" value="2" />
       </usages-collector>
       <usages-collector id="statistics.run.configuration.start">
-        <usage id="PythonConfigurationType" value="43">
+        <usage id="PythonConfigurationType" value="47">
           <context>
             <entry key="data_1" value="Run" />
           </context>
         </usage>
-        <usage id="tests.Unittests" value="7">
+        <usage id="tests.Unittests" value="8">
           <context>
             <entry key="data_1" value="Run" />
           </context>
@@ -30,7 +30,7 @@
         </usage>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
-        <usage id="Python" value="56" />
+        <usage id="Python" value="65" />
         <usage id="PLAIN_TEXT" value="5" />
       </usages-collector>
       <usages-collector id="statistics.terminal">
@@ -41,14 +41,21 @@
             <entry key="data_3" value="bash" />
           </context>
         </usage>
+        <usage id="local.exec" value="1">
+          <context>
+            <entry key="data_1" value="Mac" />
+            <entry key="data_2" value="macOS 10.14.4" />
+            <entry key="data_3" value="zsh" />
+          </context>
+        </usage>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
-        <usage id="Python" value="153" />
-        <usage id="PLAIN_TEXT" value="2" />
+        <usage id="Python" value="190" />
+        <usage id="PLAIN_TEXT" value="4" />
       </usages-collector>
       <usages-collector id="statistics.debugger.breakpoints.usage">
-        <usage id="new.breakpoint" value="21" />
-        <usage id="new.python-line" value="21" />
+        <usage id="new.breakpoint" value="22" />
+        <usage id="new.python-line" value="22" />
       </usages-collector>
     </session>
   </component>
@@ -64,6 +71,6 @@
     </option>
   </component>
   <component name="VcsLogIndexCollector">
-    <option name="indexTime" value="462" />
+    <option name="indexTime" value="672" />
   </component>
 </project>

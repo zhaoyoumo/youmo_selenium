@@ -91,6 +91,50 @@ class LimitOrder(unittest.TestCase):
         self.assertTrue(message)
         print (u"弹出提示信息：%s" % message)  # 断言实际结果与期望结果一致
 
+    def test10(self):
+        u"""下限价委托多单，查看委托保证金"""
+        self.driver.find_element_by_css_selector(".form-control:nth-child(1)").send_keys(10)  # 杠杆输入10x
+        self.driver.find_element_by_xpath("//div[3]/div[2]/div").click()
+        self.LimitBuyOrder(3500, 1000)
+        message = self.driver.find_element_by_xpath("//span/div/div/div/div/div").text  # 创建成功
+        self.assertTrue(message)
+        print (u"弹出提示信息：%s" % message)  # 断言实际结果与期望结果一致
+        time.sleep(1)
+
+        self.driver.get("https://test.xjonathan.me/wallet/balance")  # 进入我的资产页面
+        time.sleep(1)
+        result = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[2]/div/div[3]/div/div/table/tbody/tr[5]/td[2]").text
+        order_margin = "0.029 BTC"  # 1000 / 3500 * (0.1 + 2 * 0.00075) = 0.029
+        self.assertEqual(result, order_margin)  # 断言实际结果与期望结果一致
+        print (u"委托保证金：%s" % result)
+        time.sleep(1)
+        print '----------test01 passed----------'
+
+    def test11(self):
+        u"""下多笔限价委托多单，查看委托保证金"""
+        self.driver.find_element_by_css_selector(".form-control:nth-child(1)").send_keys(10)  # 杠杆输入10x
+        self.driver.find_element_by_xpath("//div[3]/div[2]/div").click()
+        self.LimitBuyOrder(3499, 1000)
+        message = self.driver.find_element_by_xpath("//span/div/div/div/div/div").text
+        self.assertTrue(message)
+        print (u"弹出提示信息：%s" % message)  # 断言实际结果与期望结果一致
+        time.sleep(1)
+
+        self.driver.get("https://test.xjonathan.me/wallet/balance")  # 进入我的资产页面
+        time.sleep(1)
+        result = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[2]/div/div[3]/div/div/table/tbody/tr[5]/td[2]").text
+        order_margin = "0.05772256 BTC"
+        # 1000 / 3500 * (0.1 - 0.00025 + 0.00075) = 0.02871428
+        # 1000 / 3499 * (0.1 + 2 * 0.00075) = 0.02900828
+        # 下多个订单时，之前同方向未成交的订单应以Maker Fee作为Entry Fee进行计算：0.02871428 + 0.02900828 = 0.05772256)
+        self.assertEqual(result, order_margin)  # 断言实际结果与期望结果一致
+        print (u"委托保证金：%s" % result)
+        print (u"计算过程：\n\t 1000 / 3500 * (0.1 - 0.00025 + 0.00075) = 0.02871428 \n\t 1000 / 3499 * (0.1 + 2 * "
+               u"0.00075) = 0.02900828 \n\t 0.02871428 + 0.02900828 = 0.05772256)")
+        time.sleep(1)
+
     def tearDown(self):
         self.driver.quit()
 
