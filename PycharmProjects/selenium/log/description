@@ -1,14 +1,10 @@
 结构说明：
 
-constant:常量部分，固定不变的数据维护在此处
-
 data:存放用于参数化的文本表格等文件
 
 emil_config:发送邮件
 
 error_picture:存放错误截图
-
-function:业务功能脚本维护在此处
 
 log:存放log类
 

@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3559869-73a7-4c11-bd55-f21b151a54a0" name="Default" comment="update">
+      <change afterPath="$USER_HOME$/Library/Caches/PyCharm2018.3/workspace/selenium.b277f0e7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/description" beforeDir="false" afterPath="$PROJECT_DIR$/log/description" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/ActiveOrders.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/ActiveOrders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/LimitBuyOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/LimitBuyOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/LimitSellOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/LimitSellOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/SignIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/SignIn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/SignUp.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/SignUp.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/selenium$start_case_01.coverage" NAME="start_case_01 Coverage Results" MODIFIED="1543387401995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/test_case_1" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_LimitOrder_LimitOrder.coverage" NAME="Unittests for LimitOrder.LimitOrder Coverage Results" MODIFIED="1554387196020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_ActiveOrders_ActiveOrder_test10.coverage" NAME="Unittests for ActiveOrders.ActiveOrder.test10 Coverage Results" MODIFIED="1555912469130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1543397692309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$01_SignUp_Case__1_.coverage" NAME="01_SignUp_Case (1) Coverage Results" MODIFIED="1544700864263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_1_AlienTest.coverage" NAME="Unittests for 1.AlienTest Coverage Results" MODIFIED="1544849528730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$1.coverage" NAME="1 Coverage Results" MODIFIED="1554384219728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$p_test.coverage" NAME="p_test Coverage Results" MODIFIED="1553162518479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request" />
+    <SUITE FILE_PATH="coverage/selenium$selenium01.coverage" NAME="selenium01 Coverage Results" MODIFIED="1538327739011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium$test_sample.coverage" NAME="test_sample Coverage Results" MODIFIED="1544783301738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_LimitOrder_LimitOrder_test02.coverage" NAME="Unittests for LimitOrder.LimitOrder.test02 Coverage Results" MODIFIED="1554375224605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_case_test_case_1_start_case_01_test.coverage" NAME="Unittests for test_case.test_case_1.start_case_01.test Coverage Results" MODIFIED="1538325370463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/selenium$httpfetcher.coverage" NAME="httpfetcher Coverage Results" MODIFIED="1553182660787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_in_LimitOrder_py.coverage" NAME="Unittests in LimitOrder.py Coverage Results" MODIFIED="1554383410656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$test_class.coverage" NAME="test_class Coverage Results" MODIFIED="1544849553191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$002.coverage" NAME="002 Coverage Results" MODIFIED="1536563288111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium$spot_api_old.coverage" NAME="spot_api_old Coverage Results" MODIFIED="1553182717995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/selenium$SignIn.coverage" NAME="SignIn Coverage Results" MODIFIED="1555779678744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$function_01.coverage" NAME="function_01 Coverage Results" MODIFIED="1536943348012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/selenium$SignUp_Case.coverage" NAME="SignUp_Case Coverage Results" MODIFIED="1544768434800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$api_test.coverage" NAME="api_test Coverage Results" MODIFIED="1553164395528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request" />
+    <SUITE FILE_PATH="coverage/selenium$LimitBuyOrder.coverage" NAME="LimitBuyOrder Coverage Results" MODIFIED="1555834210271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$function01.coverage" NAME="function01 Coverage Results" MODIFIED="1536937759893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_in_LimitBuyOrder_py.coverage" NAME="Unittests in LimitBuyOrder.py Coverage Results" MODIFIED="1555662985753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_case_test_case_1_start_case_01_Case_02.coverage" NAME="Unittests for test_case.test_case_1.start_case_01.Case_02 Coverage Results" MODIFIED="1536941956217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/selenium$start_case_01__1_.coverage" NAME="start_case_01 (1) Coverage Results" MODIFIED="1544516292082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$DownloadPic.coverage" NAME="DownloadPic Coverage Results" MODIFIED="1538327265351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$LimitOrder.coverage" NAME="LimitOrder Coverage Results" MODIFIED="1555602669542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_LimitSellOrder_LimitOrder_test04.coverage" NAME="Unittests for LimitSellOrder.LimitOrder.test04 Coverage Results" MODIFIED="1555782059354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Delphy_Website.coverage" NAME="Delphy_Website Coverage Results" MODIFIED="1544849561411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$SignUp.coverage" NAME="SignUp Coverage Results" MODIFIED="1555756406430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_case_test_case_1_start_case_01_Case_02_test_zzk.coverage" NAME="Unittests for test_case.test_case_1.start_case_01.Case_02.test_zzk Coverage Results" MODIFIED="1536943290835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/selenium$01_SignUp_Case.coverage" NAME="01_SignUp_Case Coverage Results" MODIFIED="1544432310617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$config01.coverage" NAME="config01 Coverage Results" MODIFIED="1536943188692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/selenium$constant_01.coverage" NAME="constant_01 Coverage Results" MODIFIED="1536942421107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant" />
+    <SUITE FILE_PATH="coverage/selenium$PicDealWith.coverage" NAME="PicDealWith Coverage Results" MODIFIED="1538326717081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/selenium$Delphy_H5.coverage" NAME="Delphy_H5 Coverage Results" MODIFIED="1551856670713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$LimitSellOrder.coverage" NAME="LimitSellOrder Coverage Results" MODIFIED="1555825534076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$log01.coverage" NAME="log01 Coverage Results" MODIFIED="1536937825666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_SignUp_SignUp_test01.coverage" NAME="Unittests for SignUp.SignUp.test01 Coverage Results" MODIFIED="1555754841515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$spot_api.coverage" NAME="spot_api Coverage Results" MODIFIED="1553222783971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/selenium$ActiveOrders.coverage" NAME="ActiveOrders Coverage Results" MODIFIED="1555912664234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/ActiveOrders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+              <folding>
+                <element signature="e#21#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/LimitBuyOrder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="91" column="55" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="91" selection-end-column="55" />
+              <folding>
+                <element signature="e#21#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_case/LimitSellOrder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+              <folding>
+                <element signature="e#22#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/002.py" />
+        <option value="$PROJECT_DIR$/config/config01.py" />
+        <option value="$PROJECT_DIR$/constant/constant01.py" />
+        <option value="$PROJECT_DIR$/encapsulation/encapsulation.py" />
+        <option value="$PROJECT_DIR$/function/function01.py" />
+        <option value="$PROJECT_DIR$/log/log01.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case01.py" />
+        <option value="$PROJECT_DIR$/report/09.py" />
+        <option value="$PROJECT_DIR$/report/report_emil.py" />
+        <option value="$PROJECT_DIR$/config/config_01.py" />
+        <option value="$PROJECT_DIR$/function/function_01.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case_1/case_02.py" />
+        <option value="$PROJECT_DIR$/constant/constant_01.py" />
+        <option value="$PROJECT_DIR$/test_case/DownloadPic.py" />
+        <option value="$PROJECT_DIR$/function/PicDealWith.py" />
+        <option value="$PROJECT_DIR$/function/Image.py" />
+        <option value="$PROJECT_DIR$/selenium01.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case_1/1.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case_1/start_case_01.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case_1/01_SignUp_Case.py" />
+        <option value="$PROJECT_DIR$/function/DownloadPic.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case/01_SignUp_Case.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case/start_case_01.py" />
+        <option value="$PROJECT_DIR$/test_case/start_case_01.py" />
+        <option value="$PROJECT_DIR$/test_case/01_SignUp_Case.py" />
+        <option value="$PROJECT_DIR$/test_case/SignUp_Case.py" />
+        <option value="$PROJECT_DIR$/test_case/Delphy_Website.py" />
+        <option value="$PROJECT_DIR$/test_case/test_sample.py" />
+        <option value="$PROJECT_DIR$/test_case/test_class.py" />
+        <option value="$PROJECT_DIR$/test_case/test_case_sign in.py" />
+        <option value="$PROJECT_DIR$/request/p_test.py" />
+        <option value="$PROJECT_DIR$/request/api_test.py" />
+        <option value="$PROJECT_DIR$/test_api/spot_api.py" />
+        <option value="$PROJECT_DIR$/test_case/1.py" />
+        <option value="$PROJECT_DIR$/test_case/LimitOrder.py" />
+        <option value="$PROJECT_DIR$/test_case/SignIn.py" />
+        <option value="$PROJECT_DIR$/test_case/SignUp.py" />
+        <option value="$PROJECT_DIR$/test_case/Position.py" />
+        <option value="$PROJECT_DIR$/test_case/OrderHistory.py" />
+        <option value="$PROJECT_DIR$/test_case/MarketBuyOrder.py" />
+        <option value="$PROJECT_DIR$/test_case/MarketSellOrder.py" />
+        <option value="$PROJECT_DIR$/test_case/Leverage.py" />
+        <option value="$PROJECT_DIR$/test_case/Deposit.py" />
+        <option value="$PROJECT_DIR$/test_case/Withdrawal.py" />
+        <option value="$PROJECT_DIR$/test_case/Wallet.py" />
+        <option value="$PROJECT_DIR$/description" />
+        <option value="$PROJECT_DIR$/log/description" />
+        <option value="$PROJECT_DIR$/test_case/LimitBuyOrder.py" />
+        <option value="$PROJECT_DIR$/test_case/ActiveOrders.py" />
+        <option value="$PROJECT_DIR$/test_case/LimitSellOrder.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="186" />
+    <option name="y" value="23" />
+    <option name="width" value="1494" />
+    <option name="height" value="999" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/log" />
+      <recent name="$PROJECT_DIR$/test_case" />
+      <recent name="$PROJECT_DIR$/test_case/test_case" />
+      <recent name="$PROJECT_DIR$/function" />
+      <recent name="$PROJECT_DIR$/test_case/test_case_1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ActiveOrders">
+    <configuration name="ActiveOrders" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/ActiveOrders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LimitBuy" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/LimitBuy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LimitSell" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/LimitSell.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SignIn" type="PythonConfigurationType" factoryName="Python">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/SignIn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SignUp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/SignUp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ActiveOrders.ActiveOrder.test10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ActiveOrders.ActiveOrder.test10&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for SignUp.SignUp.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;SignUp.SignUp.test01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_case.LimitSell.LimitOrder.test04" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.LimitSell.LimitOrder.test04&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in LimitBuy.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/LimitBuy.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ActiveOrders" />
+      <item itemvalue="Python.LimitSellOrder" />
+      <item itemvalue="Python.LimitBuyOrder" />
+      <item itemvalue="Python.test_case" />
+      <item itemvalue="Python.SignIn" />
+      <item itemvalue="Python.SignUp" />
+      <item itemvalue="Python tests.Unittests in LimitBuy.py" />
+      <item itemvalue="Python tests.Unittests for SignUp.SignUp.test01" />
+      <item itemvalue="Python tests.Unittests for test_case.LimitSell.LimitOrder.test04" />
+      <item itemvalue="Python tests.Unittests for ActiveOrders.ActiveOrder.test10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for ActiveOrders.ActiveOrder.test10" />
+        <item itemvalue="Python tests.Unittests for test_case.LimitSell.LimitOrder.test04" />
+        <item itemvalue="Python tests.Unittests for SignUp.SignUp.test01" />
+        <item itemvalue="Python tests.Unittests in LimitBuy.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3559869-73a7-4c11-bd55-f21b151a54a0" name="Default" comment="" />
+      <created>1534064399701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534064399701</updated>
+      <workItem from="1543917305259" duration="648000" />
+      <workItem from="1544086626104" duration="312000" />
+      <workItem from="1544097645075" duration="110000" />
+      <workItem from="1544421713097" duration="594000" />
+      <workItem from="1544428722536" duration="2257000" />
+      <workItem from="1544442222659" duration="669000" />
+      <workItem from="1544513076243" duration="98000" />
+      <workItem from="1544516236743" duration="384000" />
+      <workItem from="1544516874815" duration="1233000" />
+      <workItem from="1544518529150" duration="1577000" />
+      <workItem from="1544608242454" duration="1119000" />
+      <workItem from="1544694204676" duration="4015000" />
+      <workItem from="1544700941281" duration="603000" />
+      <workItem from="1544766864307" duration="2886000" />
+      <workItem from="1544781463472" duration="1615000" />
+      <workItem from="1544849482701" duration="237000" />
+      <workItem from="1551856605178" duration="700000" />
+      <workItem from="1551857319539" duration="176000" />
+      <workItem from="1551858135214" duration="4673000" />
+      <workItem from="1551871321569" duration="298000" />
+      <workItem from="1551940798012" duration="3089000" />
+      <workItem from="1551951788940" duration="452000" />
+      <workItem from="1552462081665" duration="220000" />
+      <workItem from="1553147744610" duration="1874000" />
+      <workItem from="1553161832308" duration="7996000" />
+      <workItem from="1553222586207" duration="1390000" />
+      <workItem from="1553325423901" duration="227000" />
+      <workItem from="1553349785459" duration="469000" />
+      <workItem from="1553777692129" duration="12000" />
+      <workItem from="1554198193230" duration="329000" />
+      <workItem from="1554268162539" duration="16795000" />
+      <workItem from="1554306779821" duration="564000" />
+      <workItem from="1554346026341" duration="4380000" />
+      <workItem from="1554375156271" duration="9366000" />
+      <workItem from="1554387184569" duration="11797000" />
+      <workItem from="1554702314830" duration="3097000" />
+      <workItem from="1554734447584" duration="29000" />
+      <workItem from="1554738401104" duration="4078000" />
+      <workItem from="1554818360761" duration="397000" />
+      <workItem from="1554820779632" duration="339000" />
+      <workItem from="1554871496865" duration="4662000" />
+      <workItem from="1554978113006" duration="154000" />
+      <workItem from="1555059801515" duration="166000" />
+      <workItem from="1555164763795" duration="437000" />
+      <workItem from="1555165320583" duration="480000" />
+      <workItem from="1555165840478" duration="148000" />
+      <workItem from="1555166010116" duration="1412000" />
+      <workItem from="1555167507904" duration="139000" />
+      <workItem from="1555167680001" duration="253000" />
+      <workItem from="1555167960519" duration="275000" />
+      <workItem from="1555168261322" duration="202000" />
+      <workItem from="1555326230360" duration="347000" />
+      <workItem from="1555391960676" duration="204000" />
+      <workItem from="1555559541559" duration="1525000" />
+      <workItem from="1555571020645" duration="8000" />
+      <workItem from="1555571127312" duration="200000" />
+      <workItem from="1555571478415" duration="1006000" />
+      <workItem from="1555572788631" duration="3144000" />
+      <workItem from="1555596482302" duration="5981000" />
+      <workItem from="1555643908368" duration="13385000" />
+      <workItem from="1555736452183" duration="15466000" />
+      <workItem from="1555824060967" duration="5757000" />
+      <workItem from="1555855466131" duration="1733000" />
+      <workItem from="1555902647446" duration="1358000" />
+      <workItem from="1555909485451" duration="3685000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1553163366171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553163366171</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1553164498796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553164498796</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1553167086269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553167086269</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1553167597564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553167597564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1553167654251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553167654251</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1553182979607</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553182979607</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1553183205200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553183205200</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1553183998014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553183998014</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1553246676629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553246676629</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1554273235579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554273235579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1554286873123</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554286873123</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1554287048313</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554287048313</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1554347353494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554347353494</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1554384516475</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554384516475</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1554384923067</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554384923067</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1554400538672</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554400538672</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1554400588707</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554400588707</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1554742705328</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554742705328</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1554818755208</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554818755208</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1554878561527</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554878561527</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <created>1555602735149</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555602735149</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update">
+      <created>1555650254589</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555650254589</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1555758322359</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555758322359</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_LimitOrder_LimitOrder - 2019.04.04 at 22h 10m 04s.xml">
+      <configuration name="Unittests for LimitOrder.LimitOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_LimitOrder_LimitOrder - 2019.04.04 at 22h 13m 16s.xml">
+      <configuration name="Unittests for LimitOrder.LimitOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_LimitBuyOrder_py - 2019.04.19 at 15h 53m 29s.xml">
+      <configuration name="Unittests in LimitBuyOrder.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_LimitBuyOrder_py - 2019.04.19 at 16h 36m 26s.xml">
+      <configuration name="Unittests in LimitBuyOrder.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_SignUp_SignUp_test01 - 2019.04.20 at 17h 18m 14s.xml">
+      <configuration name="Unittests for SignUp.SignUp.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_SignUp_SignUp_test01 - 2019.04.20 at 17h 50m 02s.xml">
+      <configuration name="Unittests for SignUp.SignUp.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_SignUp_SignUp_test01 - 2019.04.20 at 18h 07m 21s.xml">
+      <configuration name="Unittests for SignUp.SignUp.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_LimitSellOrder_LimitOrder_test04 - 2019.04.21 at 01h 04m 55s.xml">
+      <configuration name="Unittests for LimitSellOrder.LimitOrder.test04" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_LimitSellOrder_LimitOrder_test04 - 2019.04.21 at 01h 40m 59s.xml">
+      <configuration name="Unittests for LimitSellOrder.LimitOrder.test04" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ActiveOrders_ActiveOrder_test10 - 2019.04.22 at 13h 54m 30s.xml">
+      <configuration name="Unittests for ActiveOrders.ActiveOrder.test10" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="153231000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="999" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13431014" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32855567" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.4993895" weight="0.37155458" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.2767365" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.8046398" weight="0.3276316" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.486569" weight="0.2183021" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3276316" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.513431" side_tool="true" weight="0.2028666" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="Run" order="6" sideWeight="0.6776557" visible="true" weight="0.2741148" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14020029" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68454933" visible="true" weight="0.28157896" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.37155458" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.8046398" weight="0.32855567" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.490232" weight="0.3384785" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.31545064" side_tool="true" visible="true" weight="0.28157896" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/function/function_01.py</url>
+          <line>6</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/function/DownloadPic.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_1/test_case01.py" />
+    <entry file="file://$PROJECT_DIR$/report/09.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1014" selection-start-line="1014" selection-end-line="1014" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_1/case_02.py" />
+    <entry file="file://$USER_HOME$/Downloads/bo_automation/cases/base.py" />
+    <entry file="file:///Library/Python/2.7/site-packages/robot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/actions/class_actions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case/1.py" />
+    <entry file="file://$PROJECT_DIR$/selenium01.py" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/formatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_case/01_SignUp_Case.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_case/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_case/start_case_01.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/SignUp_Case.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_sample.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_class.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/Delphy_Website.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/Delphy_H5.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_case_sign in.py" />
+    <entry file="file://$PROJECT_DIR$/test_api/httpfetcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_api/Performance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_api/spot_api_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_api/spot_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/1.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/Deposit.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Leverage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/MarketSellOrder.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/MarketBuyOrder.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OrderHistory.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Position.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Withdrawal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/SignIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="e#22#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Wallet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_01.py" />
+    <entry file="file://$PROJECT_DIR$/encapsulation/encapsulation.py" />
+    <entry file="file://$PROJECT_DIR$/report/report_emil.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/tst.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#90#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constant/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/DownloadPic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/function_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/PicDealWith.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/description">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/SignUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/ActiveOrders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/LimitBuyOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="91" column="55" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="91" selection-end-column="55" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/LimitSellOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
