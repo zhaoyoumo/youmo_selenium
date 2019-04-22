@@ -171,6 +171,16 @@ class SignUp(unittest.TestCase):
         self.assertTrue(text)
         print u'弹出错误提示：%s' % text
 
+    def test16(self):
+        u"""邮箱错误"""
+        self.driver.find_element_by_xpath("//input[@type='email']").send_keys("zhaoyomo@.com")
+        self.driver.find_element_by_id("password").send_keys("Abcd1234**")
+        self.driver.find_element_by_id("rePassword").send_keys("Abcd1234**")
+        self.driver.find_element_by_xpath("//div[@id='root']/div/div[2]/div/div/div/div/button/span").click()
+        text = self.driver.find_element_by_css_selector(".due-message-text").text
+        self.assertTrue(text)
+        print u'弹出错误提示：%s' % text
+
     def tearDown(self):
         self.driver.quit()
 

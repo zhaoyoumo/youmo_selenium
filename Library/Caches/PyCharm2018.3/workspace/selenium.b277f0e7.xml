@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="308839932">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="13" />
+        <usage id="project.open.time.9" value="2" />
+        <usage id="project.closed" value="12" />
+        <usage id="project.open.time.7" value="3" />
+        <usage id="project.open.time.0" value="2" />
+        <usage id="project.open.time.6" value="3" />
+        <usage id="project.open.time.8" value="1" />
+        <usage id="project.open.time.5" value="2" />
+      </usages-collector>
+      <usages-collector id="statistics.run.configuration.start">
+        <usage id="PythonConfigurationType" value="43">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+        <usage id="tests.Unittests" value="7">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+        <usage id="PythonConfigurationType" value="1">
+          <context>
+            <entry key="data_1" value="Debug" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <usage id="Python" value="56" />
+        <usage id="PLAIN_TEXT" value="5" />
+      </usages-collector>
+      <usages-collector id="statistics.terminal">
+        <usage id="local.exec" value="9">
+          <context>
+            <entry key="data_1" value="Mac" />
+            <entry key="data_2" value="macOS 10.14.4" />
+            <entry key="data_3" value="bash" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <usage id="Python" value="153" />
+        <usage id="PLAIN_TEXT" value="2" />
+      </usages-collector>
+      <usages-collector id="statistics.debugger.breakpoints.usage">
+        <usage id="new.breakpoint" value="21" />
+        <usage id="new.python-line" value="21" />
+      </usages-collector>
+    </session>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="history-96" />
+    </option>
+  </component>
+  <component name="VcsLogIndexCollector">
+    <option name="indexTime" value="462" />
+  </component>
+</project>
