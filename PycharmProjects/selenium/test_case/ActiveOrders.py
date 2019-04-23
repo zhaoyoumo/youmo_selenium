@@ -42,63 +42,128 @@ class ActiveOrder(unittest.TestCase):
         self.driver.find_element_by_css_selector(".form-control:nth-child(1)").send_keys(10)  # 杠杆输入10x
         self.driver.find_element_by_xpath("//div[3]/div[2]/div").click()
         self.LimitBuyOrder(3500, 1000)
-        message = self.driver.find_element_by_xpath("//span/div/div/div/div/div").text  # 创建成功
+        message = self.driver.find_element_by_xpath("//span/div/div/div/div/div").text  # 买单创建成功
         self.assertTrue(message)
-        print (u"弹出提示信息：%s" % message)  # 断言实际结果与期望结果一致
+        print message
         time.sleep(1)
 
         self.driver.find_element_by_xpath("//div[3]/div/div/ul/li[2]/a/span").click()  # 点击当前委托
+        output_symbol = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td").text  # 合约
+        input_symbol = "BTCUSD"
+        self.assertEqual(output_symbol, input_symbol)
+        print u"合约：%s" % output_symbol
+
         output_price = self.driver.find_element_by_xpath(
             "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[2]").text  # 委托价格
         input_price = "3500"
-        self.assertEqual(output_price, input_price)  # 断言实际结果与期望结果一致
-        print (u"委托价格：%s" % output_price)
+        self.assertEqual(output_price, input_price)
+        print u"委托价格：%s" % output_price
+
         output_size = self.driver.find_element_by_xpath(
             "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[3]").text  # 委托数量
         input_size = "1000"
-        self.assertEqual(output_size, input_size)  # 断言实际结果与期望结果一致
-        print (u"委托数量：%s" % output_size)
-        self.driver.find_element_by_xpath()  # 成交数量
-        self.driver.find_element_by_xpath()  # 委托价值
-        self.driver.find_element_by_xpath()  # 成交价格
-        self.driver.find_element_by_xpath()  # 状态
-        self.driver.find_element_by_xpath()  # 时间
+        self.assertEqual(output_size, input_size)
+        print u"委托数量：%s" % output_size
 
+        output_filled = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[4]").text  # 成交数量
+        input_filled = "0"
+        self.assertEqual(output_filled, input_filled)
+        print u"成交数量：%s" % output_filled
+
+        output_orderValue = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[5]").text  # 委托价值
+        input_orderValue = "?"  # "0.28571428"
+        self.assertEqual(output_orderValue, input_orderValue)
+        print u"委托价值：%s" % output_orderValue
+
+        output_fillPrice = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[6]").text  # 成交价格
+        input_fillPrice = "?"
+        self.assertEqual(output_fillPrice, input_fillPrice)
+        print u"成交价格：%s" % output_fillPrice
+
+        output_status = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[7]").text  # 状态
+        input_status = "new"
+        self.assertEqual(output_status, input_status)
+        print u"状态：%s" % output_status
+
+        output_time = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[8]/div").text  # 时间
+        self.assertTrue(output_time)
         print '----------Test01 Passed---------'
 
     def test02(self):
         u"""下限价空单，查看当前委托列表"""
         print '----------Test02 Start----------'
-        self.driver.find_element_by_css_selector(".form-control:nth-child(1)").send_keys(10)
+        self.driver.find_element_by_css_selector(".form-control:nth-child(1)").send_keys(10)  # 杠杆输入10x
         self.driver.find_element_by_xpath("//div[3]/div[2]/div").click()
-        self.LimitSellOrder(3500, 1000)
-        message = self.driver.find_element_by_xpath("//span/div/div/div/div/div").text
+        self.LimitSellOrder(4000, 1000)
+        message = self.driver.find_element_by_xpath("//span/div/div/div/div/div").text  # 卖单创建成功
         self.assertTrue(message)
-        print (u"弹出提示信息：%s" % message)
+        print u"弹出提示信息：%s" % message
         time.sleep(1)
 
         self.driver.find_element_by_xpath("//div[3]/div/div/ul/li[2]/a/span").click()  # 点击当前委托
+        output_symbol = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td").text  # 合约
+        input_symbol = "BTCUSD"
+        self.assertEqual(output_symbol, input_symbol)
+        print u"合约：%s" % output_symbol
+
         output_price = self.driver.find_element_by_xpath(
-            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[2]").text
-        input_price = "3500"
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[2]").text  # 委托价格
+        input_price = "4000"
         self.assertEqual(output_price, input_price)
-        print (u"委托价格：%s" % output_price)
+        print u"委托价格：%s" % output_price
+
         output_size = self.driver.find_element_by_xpath(
-            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[3]").text
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[2]").text  # 委托数量
         input_size = "1000"
         self.assertEqual(output_size, input_size)
-        print (u"委托数量：%s" % output_size)
+        print u"委托数量：%s" % output_size
+
+        output_filled = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[4]").text  # 成交数量
+        input_filled = "0"
+        self.assertEqual(output_filled, input_filled)
+        print u"成交数量：%s" % output_filled
+
+        output_orderValue = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[5]").text  # 委托价值
+        input_orderValue = "?"
+        self.assertEqual(output_orderValue, input_orderValue)
+        print u"委托价值：%s" % output_orderValue
+
+        output_fillPrice = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[5]").text  # 成交价格
+        input_fillPrice = "?"
+        self.assertEqual(output_fillPrice, input_fillPrice)
+        print u"成交价格：%s" % output_fillPrice
+
+        output_status = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[7]").text  # 状态
+        input_status = "new"
+        self.assertEqual(output_status, input_status)
+        print u"状态：%s" % output_status
+
+        output_time = self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[8]/div").text  # 时间
+        self.assertTrue(output_time)
         print '----------Test02 Passed----------'
 
-    # def test03(self):
-    #     u"""取消当前委托"""
-    #     print '----------Test03 Start----------'
-    #     self.driver.get("https://test.xjonathan.me/trade")
-    #     self.driver.implicitly_wait(30)
-    #     self.driver.find_element_by_xpath("//div[3]/div/div/ul/li[2]/a/span").click()
-    #     self.driver.find_element_by_xpath("//td[9]/button/span").click()  # 点击取消按钮
-    #     print (u'当前委托单已撤单')
-    #     print '----------Test03 Passed----------'
+    def test03(self):
+        u"""取消当前委托"""
+        print '----------Test03 Start----------'
+        self.driver.find_element_by_xpath("//div[3]/div/div/ul/li[2]/a/span").click()  # 进入当前委托
+        self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr/td[9]/button/span").click()  # 取消第一条
+        self.driver.find_element_by_xpath(
+            "//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/table/tbody/tr[2]/td[9]/button/span")  # 取消第二条
+        print (u'当前委托单已撤单')
+        print '----------Test03 Passed----------'
 
     def tearDown(self):
         self.driver.quit()
