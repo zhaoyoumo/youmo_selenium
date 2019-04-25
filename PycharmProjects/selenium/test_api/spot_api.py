@@ -74,7 +74,6 @@ if __name__ == '__main__':
 	spot_b = SpotAPI('wulei_delphy@outlook.com', seceret_key, passphrase).get_token()
 
 	result = spot_a.take_order(otype="limit", side='long', marketId='BTCUSD', price=3000, size=420)
-	result = spot_a.take_order(otype="limit", side='long', marketId='BTCUSD', price=3001, size=420)
 	# result = spot.revoke_order(83)
 	# {'marketId': 1, 'type': 'limit', 'side': 'ask', 'price': 0.001575, 'size': 491.5}
 	# symbol = 'dice-eos'
