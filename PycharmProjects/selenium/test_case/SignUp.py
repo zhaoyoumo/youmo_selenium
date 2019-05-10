@@ -13,24 +13,24 @@ class SignUp(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
-        self.driver.get("https://test.xjonathan.me/sign-up")
+        self.driver.get("https://test.xjonathan.me/register")
         self.driver.implicitly_wait(30)
         time.sleep(1)
 
     def test01(self):
         u"""邮箱为空"""
-        self.driver.find_element_by_xpath("//input[@type='email']").click()
+        self.driver.find_element_by_class("btn btn-outline-secondary btn-sm").cilck()
         self.driver.find_element_by_id("password").send_keys("Abcd1234**")
         self.driver.find_element_by_id("rePassword").send_keys("Abcd1234**")
-        self.driver.find_element_by_xpath("//div[@id='root']/div/div[2]/div/div/div/div/button/span").click()
+        self.driver.find_element_by_id("registerBtn']").click()
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
-        print u'弹出错误提示：%s' % text
+        print (u'弹出错误提示：%s' % text)
 
     def test02(self):
         u"""密码为空"""
         self.driver.find_element_by_xpath("//input[@type='email']").send_keys("abc1234@qq.com")
-        self.driver.find_element_by_id("password").click()
+#        self.driver.find_element_by_id("password").click()
         self.driver.find_element_by_id("rePassword").send_keys("Abcd1234**")
         self.driver.find_element_by_xpath("//div[@id='root']/div/div[2]/div/div/div/div/button/span").click()
         text = self.driver.find_element_by_css_selector(".due-message-text").text
@@ -107,6 +107,7 @@ class SignUp(unittest.TestCase):
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
 
+
     def test10(self):
         u"""密码为21位"""
         self.driver.find_element_by_xpath("//input[@type='email']").send_keys("abc1234@qq.com")
@@ -169,7 +170,7 @@ class SignUp(unittest.TestCase):
         self.driver.find_element_by_xpath("//div[@id='root']/div/div[2]/div/div/div/div/button/span").click()
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
-        print u'弹出错误提示：%s' % text
+        print (u'弹出错误提示：%s' % text)
 
     def test16(self):
         u"""邮箱错误"""
@@ -179,7 +180,7 @@ class SignUp(unittest.TestCase):
         self.driver.find_element_by_xpath("//div[@id='root']/div/div[2]/div/div/div/div/button/span").click()
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
-        print u'弹出错误提示：%s' % text
+        print (u'弹出错误提示：%s' % text)
 
     def tearDown(self):
         self.driver.quit()

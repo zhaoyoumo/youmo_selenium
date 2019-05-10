@@ -6,9 +6,8 @@ from selenium import webdriver
 
 __author__ = 'Youmo'
 
-
 class ActiveOrder(unittest.TestCase):
-    u"""进入交易页面"""
+    u"""当前委托"""
 
     def setUp(self):
         self.driver = webdriver.Chrome()

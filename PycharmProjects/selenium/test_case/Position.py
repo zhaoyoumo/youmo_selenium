@@ -8,7 +8,7 @@ __author__ = 'Youmo'
 
 
 class Position(unittest.TestCase):
-    u"""进入交易页面"""
+    u"""仓位"""
 
     def setUp(self):
         u"""登录"""

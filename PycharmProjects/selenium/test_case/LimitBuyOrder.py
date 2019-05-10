@@ -8,7 +8,7 @@ __author__ = 'Youmo'
 
 
 class LimitOrder(unittest.TestCase):
-    u"""进入交易页面"""
+    u"""下单操作-限价买单"""
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
@@ -109,7 +109,6 @@ class LimitOrder(unittest.TestCase):
         self.assertEqual(result, order_margin)  # 断言实际结果与期望结果一致
         print (u"委托保证金：%s" % result)
         time.sleep(1)
-        print '----------test01 passed----------'
 
     def test11(self):
         u"""下多笔限价委托多单，查看委托保证金"""

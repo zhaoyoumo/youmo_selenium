@@ -1,0 +1,19 @@
+https://blog.csdn.net/wangmcn1984/article/details/78963178  定位元素
+
+
+
+.app/Contents/MacOS/UltraEdit
+
+请写下你的密钥。
+
+写下并好好保管！ 密钥在你离开本页后将不会再见到。
+
+
+ID：	GW-J6lQBon9VqRPbozPPW3_7
+密钥：8bYN64_DLvlsTD1w33jcxmt5oCr2XGqcxzrvgbekCD57F4w5
+
+
+
+printf '\x31\xC0\xFF\xC0\xC3\x90' | dd seek=$((0x76DC40)) conv=notrunc bs=1 of=/Applications/UltraEdit.app/Contents/MacOS/UltraEdit
+
+printf '\x31\xC0\xFF\xC0\xC3\x90' | dd seek=$((0x92D370)) conv=notrunc bs=1 of=/Applications/UltraEdit.app/Contents/MacOS/UltraEdit 
