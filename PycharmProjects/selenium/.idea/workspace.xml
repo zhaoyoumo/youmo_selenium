@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3559869-73a7-4c11-bd55-f21b151a54a0" name="Default" comment="update">
-      <change afterPath="$USER_HOME$/Library/Caches/PyCharm2019.1/workspace/untitled.6c34466e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/Library/Caches/PyCharm2019.1/workspace/selenium.b277f0e7.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Library/Caches/PyCharm2018.3/workspace/selenium.b277f0e7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Library/Caches/PyCharm2019.1/workspace/untitled.6c34466e.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/ActiveOrders.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/ActiveOrders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/ContractDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/ContractDetails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/LimitBuyOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/LimitBuyOrder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/LimitSellOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/LimitSellOrder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/OrderHistory.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/OrderHistory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/Position.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/Position.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/SignIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/SignIn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/SignUp.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/SignUp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,10 +74,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/Position.py">
+        <entry file="file://$PROJECT_DIR$/test_case/SignUp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3924">
-              <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+            <state relative-caret-position="418">
+              <caret line="157" column="36" lean-forward="true" selection-start-line="156" selection-start-column="30" selection-end-line="157" selection-end-column="36" />
               <folding>
                 <element signature="e#21#32#0" expanded="true" />
               </folding>
@@ -155,14 +149,13 @@
         <option value="$PROJECT_DIR$/test_case/LimitBuyOrder.py" />
         <option value="$PROJECT_DIR$/test_case/LimitSellOrder.py" />
         <option value="$PROJECT_DIR$/test_case/ActiveOrders.py" />
-        <option value="$PROJECT_DIR$/test_case/SignUp.py" />
         <option value="$PROJECT_DIR$/test_case/Position.py" />
         <option value="$PROJECT_DIR$/test_case/ContractDetails.py" />
+        <option value="$PROJECT_DIR$/test_case/SignUp.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="852" />
@@ -180,7 +173,12 @@
           <expand>
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Position">
+  <component name="RunManager" selected="Python.SignUp">
     <configuration name="ActiveOrders" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -596,6 +594,7 @@
       <workItem from="1557321792376" duration="434000" />
       <workItem from="1557331563876" duration="762000" />
       <workItem from="1557418931760" duration="31000" />
+      <workItem from="1557802195282" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1553163366171</created>
@@ -815,7 +814,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201514000" />
+    <option name="totallyTimeSpent" value="201874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,10 +827,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="1680" height="852" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.16361417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.16544567" />
       <window_info id="Structure" order="1" weight="0.24969475" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855567" />
@@ -1110,16 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/SignUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#21#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/ContractDetails.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1145,8 +1134,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/Position.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3924">
+        <state relative-caret-position="17">
           <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/SignUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="157" column="36" lean-forward="true" selection-start-line="156" selection-start-column="30" selection-end-line="157" selection-end-column="36" />
           <folding>
             <element signature="e#21#32#0" expanded="true" />
           </folding>
