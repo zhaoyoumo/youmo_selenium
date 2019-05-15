@@ -25,7 +25,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test01 Passed----------')
 
     def test02(self):
         u"""密码为空"""
@@ -35,7 +34,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test02 Passed----------')
 
     def test03(self):
         u"""密码为纯数字"""
@@ -46,7 +44,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test03 Passed----------')
 
     def test04(self):
         u"""密码为纯字母"""
@@ -57,7 +54,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test04 Passed----------')
 
     def test05(self):
         u"""密码为纯符号"""
@@ -68,7 +64,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test05 Passed----------')
 
     def test06(self):
         u"""密码为数字字母组合"""
@@ -79,7 +74,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test06 Passed----------')
 
     def test07(self):
         u"""密码为数字符号组合"""
@@ -90,7 +84,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test07 Passed----------')
 
     def test08(self):
         u"""密码为字母符号组合"""
@@ -101,7 +94,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test08 Passed----------')
 
     def test09(self):
         u"""密码为7位"""
@@ -112,7 +104,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test09 Passed----------')
 
     def test10(self):
         u"""密码为21位"""
@@ -123,7 +114,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test10 Passed----------')
 
     def test11(self):
         u"""确认密码为空"""
@@ -133,7 +123,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test11 Passed----------')
 
     def test12(self):
         u"""确认密码输入错误"""
@@ -144,7 +133,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test12 Passed----------')
 
     def test13(self):
         u"""输入错误邀请码"""
@@ -156,7 +144,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test13 Passed----------')
 
     def test14(self):
         u"""未勾选注册协议"""
@@ -167,8 +154,7 @@ class SignUp(unittest.TestCase):
         self.driver.find_element_by_id("registerBtn").click()
 #        text = self.driver.find_element_by_css_selector(".due-message-text").text
 #        self.assertTrue(text)
-#        print (u'弹出错误提示：%s' % text)
-        print ('----------Test14 Passed----------')       
+#        print (u'弹出错误提示：%s' % text)    
         
     def test15(self):
         u"""邮箱已注册"""
@@ -179,7 +165,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test15 Passed----------') 
 
     def test16(self):
         u"""邮箱错误"""
@@ -190,7 +175,6 @@ class SignUp(unittest.TestCase):
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)
         print (u'弹出错误提示：%s' % text)
-        print ('----------Test16 Passed----------') 
 
     def tearDown(self):
         self.driver.quit()

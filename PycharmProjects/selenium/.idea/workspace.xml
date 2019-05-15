@@ -4,7 +4,7 @@
     <list default="true" id="f3559869-73a7-4c11-bd55-f21b151a54a0" name="Default" comment="update">
       <change beforePath="$USER_HOME$/Library/Caches/PyCharm2019.1/workspace/selenium.b277f0e7.xml" beforeDir="false" afterPath="$USER_HOME$/Library/Caches/PyCharm2019.1/workspace/selenium.b277f0e7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/SignUp.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/SignUp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/SignIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/SignIn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +64,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/SignUp.py">
+        <entry file="file://$PROJECT_DIR$/test_case/SignIn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+            <state relative-caret-position="241">
+              <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
               <folding>
-                <element signature="e#21#32#0" expanded="true" />
+                <element signature="e#22#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,7 +125,6 @@
         <option value="$PROJECT_DIR$/test_api/spot_api.py" />
         <option value="$PROJECT_DIR$/test_case/1.py" />
         <option value="$PROJECT_DIR$/test_case/LimitOrder.py" />
-        <option value="$PROJECT_DIR$/test_case/SignIn.py" />
         <option value="$PROJECT_DIR$/test_case/OrderHistory.py" />
         <option value="$PROJECT_DIR$/test_case/MarketBuyOrder.py" />
         <option value="$PROJECT_DIR$/test_case/MarketSellOrder.py" />
@@ -142,13 +141,15 @@
         <option value="$PROJECT_DIR$/test_case/Position.py" />
         <option value="$PROJECT_DIR$/test_case/ContractDetails.py" />
         <option value="$PROJECT_DIR$/test_case/SignUp.py" />
+        <option value="$PROJECT_DIR$/test_case/SignIn.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="122" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="852" />
+    <option name="width" value="1437" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -158,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SignUp">
+  <component name="RunManager" selected="Python.SignIn">
     <configuration name="ActiveOrders" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -585,6 +586,8 @@
       <workItem from="1557331563876" duration="762000" />
       <workItem from="1557418931760" duration="31000" />
       <workItem from="1557802195282" duration="1100000" />
+      <workItem from="1557814632247" duration="1485000" />
+      <workItem from="1557816181216" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1553163366171</created>
@@ -811,7 +814,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202614000" />
+    <option name="totallyTimeSpent" value="206918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,10 +827,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
+    <frame x="122" y="23" width="1437" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.16544567" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.021505376" />
       <window_info id="Structure" order="1" weight="0.24969475" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855567" />
@@ -837,19 +840,19 @@
       <window_info anchor="bottom" auto_hide="true" x="21" y="397" width="1638" height="251" id="TODO" internal_type="SLIDING" order="5" sideWeight="0.498779" type="SLIDING" weight="0.2767365" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.8034188" weight="0.32745314" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4993895" weight="0.32745314" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1965812" side_tool="true" weight="0.32745314" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1965812" side_tool="true" weight="0.32637364" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.57252747" weight="0.26153848" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.32967034" />
-      <window_info anchor="right" id="Run" order="6" sideWeight="0.5731707" weight="0.23321123" />
-      <window_info anchor="right" id="Favorites" order="7" sideWeight="0.42682928" side_tool="true" weight="0.2741148" />
-      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.486569" weight="0.18498169" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32903227" />
+      <window_info anchor="right" id="Favorites" order="6" sideWeight="0.42747253" side_tool="true" weight="0.26164874" />
+      <window_info anchor="right" id="Terminal" order="7" sideWeight="0.486569" weight="0.18498169" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14020029" />
@@ -949,6 +952,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/selenium$SignIn.coverage" NAME="SignIn Coverage Results" MODIFIED="1557820507588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/selenium$Unittests_for_Position_Position_test01.coverage" NAME="Unittests for Position.Position.test01 Coverage Results" MODIFIED="1557332305954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/selenium$Position.coverage" NAME="Position Coverage Results" MODIFIED="1557332379808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
   </component>
@@ -1096,16 +1100,6 @@
     <entry file="file://$PROJECT_DIR$/log/tst.log">
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/SignIn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-          <folding>
-            <element signature="e#22#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/ContractDetails.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1141,10 +1135,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/SignUp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+        <state relative-caret-position="33">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding>
             <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/SignIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="e#22#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
