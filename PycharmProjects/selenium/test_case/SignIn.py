@@ -37,8 +37,8 @@ class SignIn(unittest.TestCase):
         u"""正确账户，正确密码"""
         self.SignIn("zhaoyoumo@outlook.com", "Abcd1234**")  # 调用登录方法
         self.driver.find_element_by_xpath("//form/div/div/button").click()  # 选择验证方式
-        self.driver.find_element_by_xpath("//div[2]/div/button").click()  # 获取验证码
-        time.sleep(10)
+        self.driver.find_element_by_xpath("//div[2]/div/button").click()  # 点击获取验证码
+        time.sleep(1)
         self.driver.find_element_by_xpath("//div[2]/div/input").send_keys("asdfasdf")  # 输入验证码
         self.driver.find_element_by_xpath("//div[3]/button").click()  # 点击确定
         # message = self.driver.find_element_by_css_selector(".style_account__1lmlF").text  # 获取登录后的账号名称
@@ -66,6 +66,7 @@ class SignIn(unittest.TestCase):
         error_message = self.driver.find_element_by_xpath("//form/div/div/span").text  
         self.assertTrue("error_message")
         print (u"弹出错误提示：%s" % error_message)
+        self.driver.fin
 
     def test05(self):
         u"""密码为空"""
