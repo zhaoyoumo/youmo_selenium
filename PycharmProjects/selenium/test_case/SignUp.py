@@ -22,8 +22,8 @@ class SignUp(unittest.TestCase):
     def test01(self):
         u"""邮箱为空"""
 #        self.driver.find_element_by_class_name("btn btn-outline-secondary btn-sm").click()    # 点击右上角注册按钮
-        self.driver.find_element_by_id("password").send_keys("Abcd1234**")
-        self.driver.find_element_by_name("confirmedPassword").send_keys("Abcd1234**")
+        self.driver.find_element_by_id("password").send_keys("123456")
+        self.driver.find_element_by_name("confirmedPassword").send_keys("123456")
         self.driver.find_element_by_id("registerBtn").click()
         text = self.driver.find_element_by_css_selector(".due-message-text").text
         self.assertTrue(text)

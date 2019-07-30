@@ -12,20 +12,25 @@ class LimitOrder(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
-        self.driver.get("https://test.xjonathan.me/sign-in")
-        self.driver.find_element_by_xpath("//input[@id='account']").send_keys("zhaoyoumo@outlook.com")
-        self.driver.find_element_by_xpath("//input[@id='password']").send_keys("Abcd1234**")
-        self.driver.find_element_by_xpath("//div/div/button").click()
-        time.sleep(1)
-        self.driver.get("https://test.xjonathan.me/trade")  # 进入交易页面
+        self.driver.get("https://test.xjonathan.me/login")
         self.driver.implicitly_wait(30)
         time.sleep(1)
+        self.driver.find_element_by_id("account").send_keys("zhaoyoumo@outlook.com")
+        self.driver.find_element_by_id("password").send_keys("Abcd1234**")
+        self.driver.find_element_by_xpath("//div/div/button").click()  # 登录
+#        self.driver.find_element_by_xpath("//form/div/div/button").click()  # 选择验证方式
+        self.driver.find_element_by_xpath("//div[2]/div/button").click()  # 点击获取验证码
+        time.sleep(1)
+        self.driver.find_element_by_xpath("//div[2]/div/input").send_keys("asdfasdf")  # 输入验证码
+        self.driver.find_element_by_xpath("//div[3]/button").click()  # 点击确定
+        time.sleep(1)
+        self.driver.find_element_by_xpath("//li/a").click()    # 进入交易页面
 
     def LimitBuyOrder(self, price, size):
         u"""价格和数量参数化"""
-        self.driver.find_element_by_xpath("//div[2]/input").send_keys(price)    # 输入价格
+        self.driver.find_element_by_xpath("//input").send_keys(price)    # 输入价格
         self.driver.find_element_by_xpath("//div[3]/input").send_keys(size)     # 输入数量
-        self.driver.find_element_by_xpath("//button/span[2]").click()           # 点击买入
+        self.driver.find_element_by_xpath("//div[2]/div/button").click()           # 点击买入
         time.sleep(1)
 
     def test01(self):
@@ -142,25 +147,4 @@ if __name__ == "__main__":
     unittest.main()
 
 
-# def test01(self):
-#     '''判断 a == b '''
-#     a = 1
-#     b = 1
-#     self.assertEqual(a, b)
-#
-# def test02(self):
-#     '''判断 a in b '''
-#     a = "hello"
-#     b = "hello world!"
-#     self.assertIn(a, b)
-# ；
-# def test03(self):
-#     '''判断 a is True '''
-#     a = True
-#     self.assertTrue(a)
-#
-# def test04(self):
-#     '''失败案例'''
-#     a = "悠悠"
-#     b = "yoyo"
-#     self.assertEqual(a, b)
+

@@ -17,3 +17,32 @@ ID：	GW-J6lQBon9VqRPbozPPW3_7
 printf '\x31\xC0\xFF\xC0\xC3\x90' | dd seek=$((0x76DC40)) conv=notrunc bs=1 of=/Applications/UltraEdit.app/Contents/MacOS/UltraEdit
 
 printf '\x31\xC0\xFF\xC0\xC3\x90' | dd seek=$((0x92D370)) conv=notrunc bs=1 of=/Applications/UltraEdit.app/Contents/MacOS/UltraEdit 
+
+
+
+
+
+
+
+# def test01(self):
+#     '''判断 a == b '''
+#     a = 1
+#     b = 1
+#     self.assertEqual(a, b)
+#
+# def test02(self):
+#     '''判断 a in b '''
+#     a = "hello"
+#     b = "hello world!"
+#     self.assertIn(a, b)
+# ；
+# def test03(self):
+#     '''判断 a is True '''
+#     a = True
+#     self.assertTrue(a)
+#
+# def test04(self):
+#     '''失败案例'''
+#     a = "悠悠"
+#     b = "yoyo"
+#     self.assertEqual(a, b)

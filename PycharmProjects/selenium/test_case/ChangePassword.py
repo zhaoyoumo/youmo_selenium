@@ -19,9 +19,9 @@ class ChangePsw(unittest.TestCase):
         self.driver.find_element_by_id("account").send_keys("zhaoyoumo@outlook.com")
         self.driver.find_element_by_id("password").send_keys("Abcd1234**")
         self.driver.find_element_by_xpath("//div/div/button").click()  # 登录
-        self.driver.find_element_by_xpath("//form/div/div/button").click()  # 选择验证方式
-        self.driver.find_element_by_xpath("//div[2]/div/button").click()  # 点击获取验证码
-        time.sleep(1)
+#        self.driver.find_element_by_xpath("//form/div/div/button").click()  # 选择验证方式
+        self.driver.find_element_by_xpath("//form/div[2]/div/button/span").click()  # 点击获取验证码
+        time.sleep(61)
         self.driver.find_element_by_xpath("//div[2]/div/input").send_keys("asdfasdf")  # 输入验证码
         self.driver.find_element_by_xpath("//div[3]/button").click()  # 点击确定
         time.sleep(1)
@@ -91,7 +91,7 @@ class ChangePsw(unittest.TestCase):
 
     def tearDown(self):
         self.driver.quit()
-
+		
 
 if __name__ == "__main__":
     unittest.main()
